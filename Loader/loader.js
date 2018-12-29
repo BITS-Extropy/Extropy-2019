@@ -1,4 +1,4 @@
-	window.onload = function(){
+function gear(){
 		gear = document.getElementById('gear');
 		r=50;
 		k=0;
@@ -10,7 +10,7 @@
 		setInterval( function(){document.getElementById('bt').click();},11000);
     // blink();
 	}
-
+gear();
   // function blink(){
   //  document.getElementById("loading"). 
   // }
